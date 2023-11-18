@@ -6,7 +6,9 @@
     5. General Sibling Selector (div~ p)- select all p after div.
 
 ## Text-style :
-     1.ftjhhjf
-     2.rdghjhf
-     3.shjyyur
-     4.sy6yu
+     1. text-align
+     2. text-decoration(underline, overline , line-through)
+     3. text-indent(create space at first of paragraph)
+     4. text-transform(text-family apply from online)
+     5. text-shadow(Example: 5px 3px grey)
+     6. word-spacing (can apply positive value ( 5px)and negative value(-5px))
