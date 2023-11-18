@@ -1,4 +1,4 @@
-## selector :
+## Selector :
     1. Grouping Selector( div,h1,h2,p) - to select and execute div, h1, h2 & p area.
     2. Descendant Selector (div p) - to select all p inside div tag.
     3. Child Selector(div > p)- to select all child p inside div tag .
