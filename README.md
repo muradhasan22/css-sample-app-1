@@ -5,5 +5,8 @@
     4. Adjasent Sibling Selector (div+p) - to select first p after div
     5. General Sibling Selector (div~ p)- select all p after div.
 
-# selector :
-## selector :
+## Text-style :
+     1.ftjhhjf
+     2.rdghjhf
+     3.shjyyur
+     4.sy6yu
