@@ -5,16 +5,23 @@ h1 {
 }
 
 #section1 {
-    width: 200px;
+    padding: 10px 15px;
+    border: 5px blue solid;
+    width: 170px;
     background-color: green;
 
 }
 
 #section2 {
+    border: 5px red solid;
     width: 200px;
     background-color: orange;
 
 }
 div {
+    padding: 10px;
+    border: 5px black solid;
+    border-radius: 20px;
     margin: 20px 15px 25px 10px;
+    max-width: 9800px;
 }
