@@ -1,0 +1,13 @@
+a.my-link:hover {
+    color: red;
+}
+
+input {
+    padding: 10px;
+    font-size: 1rem;
+    width: 175px;
+}
+
+input:focus-visible {
+    background: blue;
+}

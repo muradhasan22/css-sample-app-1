@@ -14,4 +14,8 @@
      6. word-spacing (can apply positive value ( 5px)and negative value(-5px))
 ## Use style-emoji :
      searce with "unicode-table.com"  
+
+ ## Pseudo class & elements :
+      style-- class-   p:hover{}   
+              element- p::first-line{} 
         
