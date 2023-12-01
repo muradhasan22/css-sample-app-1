@@ -5,3 +5,26 @@ b = number of class, pseudo classes,
     attributes
 c = number of elements, pseudo elements, 
     attributes  */    
+/*a =0  b =0 c =1 , 001 */
+h1 {
+    background-color: red;
+}
+
+/*a =0  b =0 c =1 , 001 */
+h1 {
+    background-color: green;
+}
+
+/*a =0  b =0 c =1 , 001 */
+.title {
+    background-color: grey;
+}
+/*a =0  b =1 c =1 , 011 */
+h1.title {
+    background-color: blueviolet;
+}
+
+/*a =1  b =0 c =0 , 100*/
+#heading {
+    background-color: orange;
+} 
