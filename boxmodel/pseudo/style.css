@@ -8,6 +8,6 @@ input {
     width: 175px;
 }
 
-input:focus-visible {
+input:hover {
     background: blue;
 }
