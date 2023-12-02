@@ -1,0 +1,7 @@
+
+.gradient-style {
+    height: 250px;
+    width: 100%;
+   /* background-color: pink; */
+    background-image: radial-gradient(circle, red, blueviolet);
+}
