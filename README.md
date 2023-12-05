@@ -35,5 +35,18 @@
         c.
         d.
         e.
-                   
+
+ ## Vocabularies
+1.Lorem Ipsum (Lipsum) (of course)
+2.Childe Harold's Pilgrimage (Lord Byron)
+3.Decameron - Novella Prima (Giovanni Boccaccio)
+4.Faust (Goethe), German
+5.In der Fremde (Heinrich Heine), German
+6.Le Bateau Ivre (Arthur Baudelaire), French
+7.Le Masque (Arthur Rembaud), French
+8.Nagyon fáj (József Attila), Hungarian
+9.Ómagyar-Mária siralom (Ismeretlen), Hungarian
+10.Robinsono Kruso (Daniel Defoe), Esperanto
+11.The Raven (Edward Allen Poe), English
+12.Tierra y Luna (Federico García Lorca), Spanish                   
         
