@@ -23,10 +23,11 @@ header {
     border-radius: 50%;
     float: left;
 }
-.header-bio {
+ .header-bio {
     float: left;
+    font-weight: bold;
     padding: 30px;
-}
+} 
 h1,h2,h3,h4,h5,h6 {
     color: #05bec4;
 }
@@ -37,8 +38,9 @@ h1,h2,h3,h4,h5,h6 {
 }
 .header-contact a {
     text-decoration: none;
-    color: teal;
+    color: #05bec4;
     font-weight: bold;
+    
 }
 
 .header-contact a:hover {
@@ -55,4 +57,62 @@ hr {
     margin: 20px auto;
     border-bottom: none;
     
+}
+/* Personal section start */
+#personal-section {
+
+}
+.content {
+    margin-bottom: 30px;
+}
+
+.left-div {
+    width: 30%;
+    float: left;
+}
+.right-div {
+    width: 70%;
+    float: right;
+}
+.common-hr{
+    border: 1px solid black;
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: none;
+}
+
+.edu-template-left {
+    float: left;
+    width: 45%;
+}
+.edu-template-right {
+    float: right;
+    width: 45%;
+
+}
+.ref-template-left{
+    float: left;
+    width: 45%;
+}
+.ref-template-left{
+    float: left;
+    width: 45%;
+}
+
+.bottom-container{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+.bottom-container a {
+    color: white;
+    text-decoratoion: none;
+    margin: 20px;
+}
+
+
+.bottom-container p {
+    color: white;
+    margin-top: 20px;
 }
