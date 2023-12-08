@@ -30,12 +30,19 @@
      8. Animation
      9. how to create/Design
      10. Project
-        a.
-        b.
+        a. CV project
+        b. Personal Portfolio
         c.
         d.
         e.
 
+## CSS Position Property :
+    1. Static position
+    2. Fixed position
+    3. Relative position
+    4. Absolute position
+
+    
  ## Vocabularies
 1.Lorem Ipsum (Lipsum) (of course)
 2.Childe Harold's Pilgrimage (Lord Byron)
