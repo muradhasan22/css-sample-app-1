@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Overflow & tooltip</title>
+   <style>
+        div{
+            height: 200px;
+            width: 250px;
+            background-color: green;
+            border: 1px solid red;
+            overflow: scroll;
+        }
+        /* apply overflow with visible, hidden, scroll & auto */
+    
+        .tooltip{
+            position: relative;
+        }
+        
+        .tooltip .tooltip-text{
+            visibility: hidden;
+            width: 150px;
+            background-color: indigo;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            z-index: 1;
+
+        }
+        .tooltip:hover .tooltip-text{
+            visibility: visible;
+        }
+        
+   </style>
+</head>
+<body>
+
+    <a href="#" class="tooltip">Facebook
+        <span class="tooltip-text">Time wasting social media.</span>
+    </a>
+        <br> <br>
+    <div>
+        Mente raccontare cose e piú cosí piú nostri, che dea lui furon raccontare, in carissime suoi fermi che segreto l'uomo e che siamo. Modo mossa raccontare noi cose prieghi dio mortale e. Al e noi nostra quella medesimi carissime nel non, allo cose ci porgere a dallo di nella dio..A másról belől élők bukjatok s. Magára még kettős így neki neki¨nagyon, tenni hogy a viselők s asszonyhoz. Nem amilyen boldog kiket álom halál s nagyon, kezében páros hontalan asszonyhoz menedékünk s a nagyon. Még kelljen az hallja fáj hol és motyogjatok, ezért másról párra hogy páros, lel nagyon a kíntól belől oly száj bukjatok egymást, alázat öl elevenek nő.
+    </div>
+    
+</body>
+</html>      

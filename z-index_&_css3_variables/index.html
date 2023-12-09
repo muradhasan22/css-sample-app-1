@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-index & css3 variables</title>
+    <style>
+        :root {
+            --primary-color: pink;
+            --secondary-color: powderblue;
+
+        }
+
+        div{
+            height: 250px;
+            width: 250px;
+        }
+    
+        #div1 {
+            background: var(--primary-color, green);
+            position: absolute;
+            z-index: 1;
+        }
+        #div2 {
+            background: var(--secondary-color);
+            position: absolute;
+            left: 100px;
+            top: 100px;
+            z-index: 2;  /* significance of z-index:  1) Controle order of elements 
+                                                      2) It work with positioning .*/
+        }
+        @media-screen and (max-width: 600px) {
+
+            :root {
+                --primary-color: black;
+                --secondary-color: blue;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="div1"></div>
+    <div id="div2"></div>
+</body>
+</html>
