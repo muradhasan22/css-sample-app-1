@@ -67,11 +67,12 @@ hr {
 }
 
 .left-div {
-    width: 30%;
+    width: 39%;
     float: left;
+    margin-right: 2px;
 }
 .right-div {
-    width: 70%;
+    width: 59%;
     float: right;
 }
 .common-hr{
