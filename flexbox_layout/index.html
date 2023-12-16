@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Layout</title>
+    <style>
+        .flex-container{
+            background-color: lightcoral;
+            display: flex;
+            /*flex-wrap: wrap;
+            flex-direction: column; */
+            flex-flow: wrap row;
+            justify-content: space-between;
+            height: 400px;
+            align-items: center;
+
+        }
+        .flex-container >div{
+            max-width: 150px;
+            background-color: lightseagreen;
+            font-size: 35px;
+            margin: 10px;
+            padding: 20px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+
+        <div class="div1" style="order: 3; flex-basis: 350px;">
+            Bangladesh
+        </div> 
+
+        <div class="div2" style="order: 1;">
+            India
+        </div>
+
+        <div class="div3" style="order: 2;">
+            Chaina
+        </div>
+
+        <div class="div4" style="order: 4;">
+            America
+        </div>
+
+        <div class="div5" style="order: 5;">
+            Rassia
+        </div>
+
+        <div class="div6" style="order: 6;">
+            Australia
+        </div>
+
+        <div class="div7" style="order: 7;">
+            Nepal
+        </div>
+
+        <div class="div8" style="order: 8;">
+            Pakistan
+        </div>
+
+        <div class="div9" style="order: 9;">
+            Afganistan
+        </div>
+
+
+    </div>
+</body>
+</html>
