@@ -4,8 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Card Design</title>
+    <style>
+       .card-container{
+            box-sizing: border-box;
+            display: flex;
+            flex-wrap: wrap;
+            background-color: powderblue;
+            padding: 20px;
+            justify-content: center;
+            align-items: center;
+
+       } 
+        .card1,.card2,.card3  {
+            width: 400px;
+            margin: 10px;
+            box-sizing: border-box;
+            box-shadow: 3px 2px 4px black;
+        }
+        .img1-style,.img2-style,.img3-style{
+            width: 100%;
+            height: 50%;
+        }
+        .card-body1,.card-body2,.card-body3{
+            background-color: teal;
+            padding: 5px;
+        }
+        .card-title{
+            font-size: 2rem;
+            color: aliceblue;
+        }
+        .card-desc1,.card-desc2,.card-desc3{
+            text-align: justify;
+            line-height: 1.5;
+            color: white;
+            width: 100%;
+            height: 50%;
+        }
+        .card1:hover,.card2:hover, .card3:hover{
+            box-shadow: 6px 8px 6px red;
+        }
+    </style>
+
 </head>
 <body>
-    
+    <div class="card-container">
+    <div class="card1">
+        <img class="img1-style" src="image/html.png" alt="html5 logo">
+        <div class="card-body1">
+            <div class="card-title">
+                Web Design with HTML5 
+            </div>
+            <div class="card-desc1">
+                <p>HTML5 is the latest standard of Hypertext Markup Language, the code that describes the structure and presentation of web pages. It's made up of three codes: HTML, which keeps the structure; CSS, which affects the presentation; and JavaScript.One of the biggest things HTML5 brings to the table is support for multimedia elements such as audio, video, vector graphics, animations, and games.</p>
+            </div>
+        </div>
+    </div>
+    <div class="card2">
+        <img class="img2-style" src="image/css.png" alt="css3 logo">
+        <div class="card-body2">
+            <div class="card-title">
+                Web Design with CSS3 
+            </div>
+            <div class="card-desc2">
+                <p>CSS3, also known as Cascading Style Sheets Level 3, is a more advanced version of CSS and the successor of CSS2. CSS3 is used for the same thing as CSS, namely to style web pages and make them more attractive and user-friendly.CSS3 allows the designer to create websites rich in content and low in code. This technology brings some exciting features that make the page look good, simple for the user to navigate, and functions flawlessly.</p>
+            </div>
+        </div>
+    </div>
+    <div class="card3">
+        <img class="img3-style" src="image/javascript.jpeg" alt="JavaScript logo">
+        <div class="card-body3">
+            <div class="card-title">
+                Web Design with JAVASCRIPT 
+            </div>
+            <div class="card-desc3">
+                <p>The primary use of JavaScript is to build web-based applications. Some of what JavaScript can do for the web includes: adding interactive behavior to web pages like zooming in and out or playing audio/video. creating web and mobile apps, the most popular examples consist of the likes of Netflix and Uber.</p>
+            </div>
+        </div>
+    </div>
+    </div>
 </body>
 </html>
