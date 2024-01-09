@@ -5,9 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grid Layout with grid area</title>
     <style>
+
+        .item1{grid-area: header;}
+        .item2{grid-area: Menu;}
+        .item3{grid-area: Main;}
+        .item4{grid-area: Aside;}
+        .item5{grid-area: Footer;}
+
         .grid-container{
             display: grid;
-            grid-template-columns: auto auto auto auto auto auto;
+            /*grid-template-columns: auto auto auto auto auto auto; */
+            grid-template-areas:
+                'header header header header header header'
+                'Menu Main Main Main Aside Aside'
+                'Menu Footer Footer Footer Footer Footer'
+            ;
         }
 
         .grid-container > div{
@@ -15,10 +27,9 @@
             border: 1px solid green;
             text-align: center;
             font-size: 1.5rem;
-
-
         }
-        .item1{
+
+        /*.item1{
             grid-column: 1 /7;
         }
         .item2{
@@ -33,7 +44,7 @@
         }
         .item5{
             grid-column: 2 /7;
-        }
+        } */
         
     </style>
 </head>
