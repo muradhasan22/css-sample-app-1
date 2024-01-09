@@ -31,8 +31,8 @@
      9. how to create/Design
      10. Project
         a. CV project
-        b. Personal Portfolio
-        c.
+        b. Calculator
+        c. Personal Portfolio
         d.
         e.
 
