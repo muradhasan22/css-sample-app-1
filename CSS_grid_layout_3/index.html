@@ -5,31 +5,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grid Layout</title>
     <style>
-        .grid-container{
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
         }
 
-        .grid-container > div {
-            border: solid;
-            padding: 5px;
+        body{
+            height: 100vh;
+            background-color: powderblue;
+            display:grid;
+            grid-template-rows: min-content auto min-content;
+            grid-template-areas:
+
+            'h'
+            'm'
+            'm'
+            'm'
+            'f'
+
+            ;
         }
+        header{
+            grid-area: h; 
+            background-color: pink;
+            width: 100%;
+            border: solid;
+        }
+        main{
+            background-color: blanchedalmond;
+            grid-area: m;
+            width: 100%;
+            height: 100%;
+        }
+        article{
+            display: grid;
+            grid-template-areas: 
+            's1 a1'
+            's2 a2'
+            's3 .'
+            ;
+            height: 100%;
+        }
+        section{
+            border: solid;
+        }
+        aside{
+            background-color: coral;
+            border: solid;
+        }
+        footer{
+            grid-area: f;
+            width: 100%;
+            display: grid;
+            grid-template-areas: 'n1 n2';
+            border: solid;
+            background-color: blueviolet;
+        }
+        #sec1{grid-area: s1;}
+        #sec2{grid-area: s2;}
+        #sec3{grid-area: s3;}
+        #aside1{grid-area: a1;}
+        #aside2{grid-area: a2;}
+        #nav1{grid-area: n1;}
+        #nav2{grid-area: n2;}
+
+        @media screen and (max-width: 600px;) {
+            footer{
+                grid-template-areas: 
+                'n1'
+                'n2'
+                ;
+            }
+        }
+
     </style>
 </head>
 <body>
-    <div class="grid-container">
-        <div><p>Magna ut diam eirmod sadipscing amet clita at sea stet, dolor elitr lorem lorem lorem accusam at sit, elitr dolor.</p></div>
-        <div><p>Labore et rebum invidunt sadipscing sea tempor gubergren amet ipsum sea, dolor et no nonumy eos eos accusam erat, sed.</p></div>
-        <div><p>Hinweggeschwunden wird nun jugendlich lebens euch, aus nebel  macht und. Menge ihr sich sie wirklichkeiten. Um euch entwöhntes tönen.</p></div>
-        <div><p>Lors d'incroyables pénétra victimes subi baigné. J'ai bords des de d'oiseaux d'ombres trouais, bleues illuminant des bonaces plus, j'aille qu'on.</p></div>
-        <div><p>Lenore stood door tapping lonely laden tossed this. Unto my this the shall my throws this nothing bore. His my.</p></div>
-        <div><p>Magna ut diam eirmod sadipscing amet clita at sea stet, dolor elitr lorem lorem lorem accusam at sit, elitr dolor.</p></div>
-        <div><p>Labore et rebum invidunt sadipscing sea tempor gubergren amet ipsum sea, dolor et no nonumy eos eos accusam erat, sed.</p></div>
-        <div><p>Hinweggeschwunden wird nun jugendlich lebens euch, aus nebel  macht und. Menge ihr sich sie wirklichkeiten. Um euch entwöhntes tönen.</p></div>
-        <div><p>Lors d'incroyables pénétra victimes subi baigné. J'ai bords des de d'oiseaux d'ombres trouais, bleues illuminant des bonaces plus, j'aille qu'on.</p></div>
-        <div><p>Labore et rebum invidunt sadipscing sea tempor gubergren amet ipsum sea, dolor et no nonumy eos eos accusam erat, sed.</p></div>
-        <div><p>Hinweggeschwunden wird nun jugendlich lebens euch, aus nebel  macht und. Menge ihr sich sie wirklichkeiten. Um euch entwöhntes tönen.</p></div>
-        <div><p>Lors d'incroyables pénétra victimes subi baigné. J'ai bords des de d'oiseaux d'ombres trouais, bleues illuminant des bonaces plus, j'aille qu'on.</p></div>
-    </div>
+    <header>
+        <nav>Header Nav</nav>
+    </header>
+    <main>
+        <article>
+            <section id="sec1">Section1</section>
+            <section id="sec2">Section2</section>
+            <section id="sec3">Section3</section>
+
+            <aside id="aside1">Aside 1</aside>
+            <aside id="aside2">Aside 2</aside>
+        </article>
+    </main>
+
+    <footer>
+        <div id="nav1">Nav1</div>
+        <div id="nav2">Nav2</div>
+    </footer>
 </body>
 </html>
