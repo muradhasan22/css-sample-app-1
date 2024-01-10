@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown menu</title>
+    <style>
+        .navbar{
+            background-color: rgb(128, 128, 173);
+            padding: 2% 8%;
+            text-align: right;
+        }
+        .navbar a{
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            padding: 10px 20px;
+            cursor: pointer;
+
+        }
+        .dropdown-cont{
+            display: inline;
+            position: relative;
+        }
+        .dropdown-content{
+            position: absolute;
+            top: 30px;
+            right: 0px;
+            background-color: rgb(128, 128, 173);
+            text-align: left;
+            min-width: 100px;
+            display: none;
+        }
+        .dropdown-content a{
+            display: block;   
+
+        }
+        .dropdown-content a:hover{
+            background-color: gray;
+        }
+
+
+        .dropdown-cont:hover .dropdown-content{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <div class="dropdown-cont">
+            <a href="#">Contact</a>
+            <div class="dropdown-content">
+                <a href="#">Facebook</a>
+                <a href="#">Linkedin</a>
+                <a href="#">Github</a>
+            </div>
+        </div>
+        <a href="#">About</a>
+    </div>
+</body>
+</html>
