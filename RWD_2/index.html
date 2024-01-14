@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive web design with grid veiw</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            
+           
+        }
+        .header{
+            background-color: coral;
+            color: white;
+            padding: 1% 5%;
+            text-align: center;
+        }
+        .nav-menu{
+            padding: 1% 5%;
+            background-color: #aaedf2;
+        }
+        .nav-menu a{
+            color: black;
+            text-decoration: none;
+            font-size: 1.2rem;
+            padding: 10px;
+            display: block;
+        }
+        .main{
+            padding: 1% 5%;
+            background-color: turquoise;
+        }
+        .aside{
+            padding: 1% 5%;
+            background-color:  #aaedf2;
+            text-align: center;
+        }
+        .footer{
+            background-color: rgb(82, 41, 41);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 0.8rem;
+        }
+            
+        /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+    [class*="col-"]{
+        float: left;
+        padding: 10px;
+    }
+    .row::after{
+        content: '';
+        clear: both;
+        display: table;
+    }
+
+     @media screen and (max-width: 768px) {
+        [class*="col-"]{
+            width: 100%;
+        }
+        .nav-menu a{
+            text-align: center;
+            background-color: rgb(105, 209, 209);
+            margin: 10px;
+        }
+     }   
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to my new web page</h1>
+        <h2>I am <strong>Md. Murad Hasan Bhuiyan</strong></h2>
+    </div>
+
+    <div class="row">
+        <div class="nav-menu col-2">
+            <a href="#">Home</a>
+            <a href="#">Tutorial</a>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+        </div>
+        <div class="main col-7">
+            <h1>I am a new web designer.</h1>
+            <p>Sich ertönt die strenge sang wie lebt nebel schauer besitze, das tönen widerklang ihr schmerz. Wird die ihr.</p>
+            
+            <p>Might monks evil childe when like there below of. Is a they and for sight riot for are gathered, sore breast call did for thy from only and nor. His steel or break aye nor harold sighed, into bower seek night and mine. Disappointed high sore albions nor and seemed, parting joyless sun resolved would power ancient long, sight despair the sad and. Given men long nor in blast that olden, not the soils other revellers not flow only the. Lurked to fulness flatterers pollution ungodly bidding yet come, him each rhyme vexed him old did disporting this mirth, and might himnot feere clay far seraphs gild, dear sorrow superstition his not though in the bower he, in consecrate mammon sorrow from are lay. Through venerable of he could all, of suffice will start loved by. His youth calm this fellow. Deem and taste name flee weary. And uncouth the as carnal. To by sighed waste that knew, congealed and a one sea. Still heart was honeyed though hall suits, they lines not deadly woe yes he might, other muse him wins feeble his sore. Lay was uses mothernot now or sick. From to wrong harolds childe massy. Ere a a the and, thee harold and soul steel harold nor, parting say with albions perchance virtues saw ear be, deem soon bidding harold if he it, wassailers thy birth in time upon ungodly still call. None then feels he he the whilome was thence, revel will caught sister of who all her hour, could to flee superstition concubines, steel unto soils and they blazon might native the. Deadly been ear the the if once are  bade. Who joyless lone start venerable, from his men things lyres of. Pilgrimage coffined companie that heralds he was his. Once sullen upon childe.</p>
+
+            <p>Takimata sed rebum voluptua ipsum dolor et sit, justo takimata lorem clita justo ipsum, et duo invidunt amet sit sed duo invidunt, tempor rebum at invidunt et, ipsum consetetur amet erat sit takimata, sit sanctus clita diam aliquyam et, et.</p>
+        </div>
+
+        <div class="aside col-3">
+            <h2>What I love?</h2>
+            <p>Comme gentillesse surprise blaspheme qu'elle exquise a de, pleure-t-elle musculeux .</p>
+
+            <h2>What I  don't love?</h2>
+            <p>Comme gentillesse surprise blaspheme qu'elle exquise a de, pleure-t-elle musculeux .</p>
+
+            <h2>What I Do?</h2>
+            <p>Comme gentillesse surprise blaspheme qu'elle exquise a de, pleure-t-elle musculeux .</p>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        &copy; Wev Development - 2022. Designed by Murad Hasan.
+    </div>
+</body>
+</html>
