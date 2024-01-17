@@ -5,12 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animation Property</title>
 <style>
-    .img{
-        background-color: black;
+    img{
+        max-width: 350px;
+        height: auto;
+        border: 5px solid black;
+
+        display: block;
+        margin: 0 auto;
+
+        margin-top: 100px;
+        border-radius: 50%;
+
+        position:relative;
+        animation-name: img-murad;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        
+    }
+
+    @keyframes img-murad {
+       0%{
+        top:0;
+        left:0;
+       }
+       50%{
+        top:100px;
+        left:0;
+        opacity: 0.5;
+       }
+       0%{
+        top: 0;
+        left:0;
+       }
     }
 </style>
 </head>
 <body>
-    <div class="img"></div>
+    <img src="image/me.jpg" alt="Picture of mine">
 </body>
 </html>
