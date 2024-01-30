@@ -1,5 +1,6 @@
 .{
     box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif
 }
 body{
     margin: 0;
@@ -8,4 +9,61 @@ body{
 img{
     width: 90px;
     height: 100px;
+}
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+a{
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+
+}
+
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+}
+
+[class*="col-"]{
+    width: 100%;
+}
+
+
+.navbar{
+    background-color: #26979f;
+    padding: 1% 7%;
+    text-align: center;
+}
+
+.navbar h1{
+    color: white;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.navbar-menu{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    text-transform: uppercase;
+}
+.navbar-menu a{
+    background-color: #0c6168;
+    border-radius: 10px;
+    margin: 7px 0;
+    padding: 10px;
+}
+
+.navbar-menu a:hover{
+    background-color: rgb(196, 83, 83);
+}
+
+
+.navbar::after{
+    content: '';
+    display: table;
+    clear: both;
 }
