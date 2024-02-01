@@ -97,9 +97,26 @@ p{
 }
 .profile-desc p{
     color: gray;
-    margin: o auto 20px 0;
+    margin: o auto 20px auto;
     text-align: center;
     width: 90%;
    
+}
+
+.profile .bottom-weather-icon{
+    position: absolute;
+    left: 60px;
+    bottom: 10px;
+    transition: transform 2s;
+}
+.profile .bottom-weather-icon:hover{
+    transform: rotate(360deg);
+}
+
+.profile::after{
+    content: '';
+    display: table;
+    clear: both;
+
 }
  /* profile design ends here */

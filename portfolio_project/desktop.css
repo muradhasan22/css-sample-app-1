@@ -13,11 +13,12 @@
    .col-11 {width: 91.66%;}
    .col-12 {width: 100%;}
 
+   /* navbar design starts here */
    .nav-logo{
     text-align: left;
    }
 
-   .nav-heading{
+   .nav-heading h2{
     text-align: right;
    }
 
@@ -28,9 +29,39 @@
    }
 
    .navbar-menu a{
-    
+    padding: 5px 10px;
     margin: 20px 0;
     background-color: transparent;
-
-   
    }
+
+   /* navbar design ends here */
+
+   /* profile design starts here */
+   .profile .top-weather-icon{
+
+      right: 100px;
+      width: 120px;
+      transition: width 2s, transform 2s;
+  }
+  .profile .top-weather-icon:hover{
+      width: 140px;
+  }
+  .profile-desc p{
+   color: gray;
+   margin: o auto ;
+ 
+   text-align: center;
+   margin-bottom: 10px;
+   
+  
+}
+  .profile .bottom-weather-icon{
+      bottom: 20px;
+      left: 140px;
+      width: 120px;
+      transition: width 2s, transform 2s;
+   }
+  .profile .bottom-weather-icon:hover{
+      width: 140px;
+   }
+   /* profile design ends here */
