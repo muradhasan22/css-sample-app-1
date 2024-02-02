@@ -65,3 +65,24 @@
       width: 140px;
    }
    /* profile design ends here */
+
+    /* about me design starts here */
+
+
+.aboutme-image{
+    width: 360px;
+    height: 400px;
+    margin-top: 140px;
+    margin-left: 20px;
+    float: left;
+}
+
+.aboutme-desc{ 
+    margin-top: 30px;
+    float: right;
+}
+.aboutme-desc p{
+    text-align: left;
+}
+
+ /* about me design ends here */

@@ -14,7 +14,10 @@ h1{
     font-size: 2.5rem;
     text-align: center;
 }
-
+h2{
+    font-size: 1.5rem;
+    text-align: center;
+}
 a{
     color: white;
     font-size: 1.2rem;
@@ -24,6 +27,13 @@ a{
 p{
     font-size: 1.2rem;
     text-align: justify;
+}
+
+.dotted-hr{
+    border: dotted 6px white;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 70px;
 }
 
 [class*="col-"]{
@@ -120,3 +130,48 @@ p{
 
 }
  /* profile design ends here */
+
+ /* about design starts here */
+ .about-me{
+    background-color: #39a4ac;
+    padding: 1% 7%;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+ }
+
+ .aboutme-image img{
+    border: 5px solid white;
+    border-radius: 50%;
+    height: 230px;
+    width: 200px;
+    margin-right: 10px;
+ }
+ .about-me p{
+    text-align: center;
+ }
+
+ .about-me a{
+    font-size: 1.2rem;
+ }
+
+ .about-me::after{
+    content: '';
+    display: table;
+    clear: both;
+ }
+
+ .cv-button{
+    background-color: #052d2f;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    margin: 10px;
+ }
+
+ /* about design ends here */
+
