@@ -355,7 +355,12 @@ p{
 .professional-experience::after{
     content:'';
     display: table;
-    clear: both;
+    clear: both; 
 }
  /* Professional experience design ends here  */
+
+ 
+ /*  achievement contact  design starts here */
+
+ /* achievement contact  design ends here */
 
