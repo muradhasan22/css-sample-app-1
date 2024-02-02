@@ -86,3 +86,18 @@
 }
 
  /* about me design ends here */
+
+ /* professional experience design starts here  */
+    .professional-experience{
+        padding: 1% 5%;
+    }
+    .work-experience{
+        width: 31%
+    }
+    .education-training{
+        width: 31%
+    }
+    .skills{
+        width: 31%
+    }
+ /* professional experience design ends here  */

@@ -183,7 +183,7 @@ p{
 .professional-experience .card{
     background-color: #a39e9e;
     border-radius: 5px;
-    padding: 10px;
+    padding: 5px;
     transition: 0.3s;
     height: 700px;
 }
@@ -212,11 +212,11 @@ p{
     padding: 10px;
     text-align: center;
 }
-.skills-cont{
+.skill-container{
     padding: 45px;
 
 }
-.skills-cont li{
+.skill-container li{
     list-style: none;
     font-weight: bold;
     margin: 30px 0px;
@@ -225,47 +225,133 @@ p{
     position: relative;
     text-transform: uppercase;
 }
-.skills-cont li::before{
+.skill-container li::before{
     content: '';
-    position:absolute;
+    position: absolute;
     top: calc(100% + 5px);
     left: 0;
-    width: 100%;
-    height: 10px;
-    background-color: rgb(86,86,153,0.5);
-    border-radius: 1000px;
 
-   
+    background-color: rgb(220, 214, 226);
+    width: 100%;
+    height: 25px;
+    border-radius: 1000px;
 
 }
 
-.skills-cont li::after{
+.skill-container li::after{
     content: '';
-    position:absolute;
+    position: absolute;
     top: calc(100% + 5px);
     left: 0;
 
-    width: 0%;
-    height: 10px;
-    background-color: rgb(81, 81, 188 1);
+    background-color: rgb(122, 122, 174);
+    width: 0;
+    height: 25px;
     border-radius: 1000px;
 
     animation-duration: 3s;
     animation-timing-function: linear;
     animation-delay: 2s;
     animation-iteration-count: infinite;
-    
+     
     animation-fill-mode: forwards; 
+
 }
-.skills-cont li.html::after{
+
+.skill-container li.html::after{
     animation-name: html;
 }
+
+
 @keyframes html{
     to{
         width: 90%;
+        background-color: rgb(0, 0, 255);
     }
 }
 
+.skill-container li.css::after{
+    animation-name: css;
+}
+
+
+@keyframes css{
+    to{
+        width: 96%;
+        background-color: rgb(0, 0, 255);
+    }
+}
+
+.skill-container li.git::after{
+    animation-name: git;
+}
+
+
+@keyframes git{
+    to{
+        width: 75%;
+        background-color: rgb(0, 0, 255);
+    }
+}
+
+.skill-container li.bs::after{
+    animation-name: bs;
+}
+
+
+@keyframes bs{
+    to{
+        width: 91%;
+        background-color: rgb(0, 0, 255);
+    }
+}
+
+.skill-container li.tl::after{
+    animation-name: tl;
+}
+
+
+@keyframes tl{
+    to{
+        width: 63%;
+        background-color: rgb(0, 0, 255);
+    }
+}
+
+.skill-container li.js::after{
+    animation-name: js;
+}
+
+
+@keyframes js{
+    to{
+        width: 55%;
+        background-color: rgb(0, 0, 255);
+    }
+}
+.skill-container li.rjs::after{
+    animation-name:rjs;
+}
+
+
+@keyframes rjs{
+    to{
+        width: 35%;
+        background-color: rgb(0, 0, 255);
+    }
+}
+
+.skill-container li.mdb::after{
+    animation-name:mdb;
+}
+
+
+@keyframes mdb{
+    to{
+        width: 22%;
+        background-color: rgb(0, 0, 255);
+    }
+}
 .professional-experience::after{
     content:'';
     display: table;
