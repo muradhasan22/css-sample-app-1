@@ -175,3 +175,48 @@ p{
 
  /* about design ends here */
 
+ /* Professional experience design starts here  */
+.professional-experience{
+    padding: 1% 0%;
+}
+
+.professional-experience .card{
+    background-color: #a39e9e;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.3s;
+    height: 700px;
+}
+
+.card:hover{
+    box-shadow: 0 4px 8px 5px black;
+}
+
+.card-icon{
+    text-align: center;
+
+}
+.card-icon img{
+    margin-top: 20px;
+    width: 100px;
+}
+
+.rounded-image{
+    border: 5px solid white;
+    border-radius: 50%;
+    padding: 15px;
+}
+.card-title h2{
+    background-color: #616161;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.professional-experience::after{
+    content:'';
+    display: table;
+    clear: both;
+}
+ /* Professional experience design ends here  */
+
