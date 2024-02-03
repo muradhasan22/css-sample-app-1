@@ -1,4 +1,4 @@
-.{
+*{
     box-sizing: border-box;
     font-family: 'Fira Sans', sans-serif
 }
@@ -355,12 +355,94 @@ p{
 .professional-experience::after{
     content:'';
     display: table;
-    clear: both; 
+    clear: both;
 }
  /* Professional experience design ends here  */
 
- 
- /*  achievement contact  design starts here */
+ /* achievement contact starts here */
+.achievement-contact{
+    padding: 1% 7%;
+    background-color: #39a4ac;
+    color: white;
 
- /* achievement contact  design ends here */
+}
 
+.contact{
+    text-align: center;
+
+}
+.contact input, textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    resize: none;
+
+}
+.contact button{
+    
+    background-color: #052d2f;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    margin: 10px;
+}
+
+.contact-links{
+    text-align: center;
+}
+
+.media-buttons .btn{
+    border: none;
+    padding: 5px;
+    margin: 10px;
+    font-size: 2rem;
+    width: 40px;
+    border-radius: 45px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.btn:hover{
+    background-color: rgb(226, 121, 121);
+}
+
+.achievement-contact::after{
+    content:'';
+    display: table;
+    clear: both;
+}
+ /* achievement contact starts here */
+
+ /* footer starts here */
+ .footer{
+    background-color: rgb(5, 41, 47);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.8rem;
+ }
+
+ .footer-menu a{
+    display: block;
+    margin: 13px 0;
+    font-size: 1rem;
+ }
+
+ .footer-menu a:hover{
+    color: #7ae7ed;
+ }
+
+ .footer::after{
+    content:'';
+    display: table;
+    clear: both;
+ }
+
+
+ /* footer ends here */

@@ -101,3 +101,49 @@
         width: 31%
     }
  /* professional experience design ends here  */
+
+ /* achievement contact starts here */
+.achievement{
+    width: 30%;
+    padding: 20px;
+    
+}
+.contact button{
+    width: 40%;
+}
+.contact{
+    width: 30%;
+}
+.contact-links{
+    width: 30%;
+    position: relative;
+}
+.media-buttons{
+    position: absolute;
+    margin-top: 200px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50% );
+}
+ /* achievement contact ends here */
+
+ /* footer starts here */
+
+.footer-menu{
+    margin-top: 12px;
+}
+
+.footer-menu a{
+    display: inline;
+    
+}
+
+.footer-desc{
+    float: right;
+   
+   
+}
+.footer-desc{
+    margin-top: 12px;
+}
+ /* footer ends here */

@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal portfolio</title>
+
+    <!-- font awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!-- google fonts link -->
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat&family=Satisfy&display=swap" rel="stylesheet">
 
@@ -26,8 +30,8 @@
         </div>
         <div class="navbar-menu col-5">
             <a href="#">Home</a>
-            <a href="#">Skills</a>
-            <a href="#">Contact</a>
+            <a href="#skills-id">Skills</a>
+            <a href="#contact-id">Contact</a>
             <a href="#">Blog</a>
             <a href="#about-me-id">About</a>   
         </div>
@@ -93,28 +97,28 @@
                 <div class="card-desc">
                         <ol>
                             <li>
-                                <strong>Web Development Learning</strong><br>
+                                <strong>Web Development </strong><br>
                                 05.11.2023- In Continuous Progress <br>
                                 company : software company <br>
                                 Address: Dhaka, Bangladesh <br>
                             </li>
                             <hr>
                             <li>
-                                <strong>Web Development Learning</strong><br>
+                                <strong>Web Design</strong><br>
                                 12.11.2023- 31.12.2023 <br>
                                 company : software company <br>
                                 Address: Dhaka, Bangladesh <br>
                             </li>
                             <hr>
                             <li>
-                                <strong>Web Development Learning</strong><br>
+                                <strong>Web Development</strong><br>
                                 05.10.2023- 10.11.2023 <br>
                                 company : software company <br>
                                 Address: Dhaka, Bangladesh <br>
                             </li>
                             <hr>
                             <li>
-                                <strong>Web Development Learning</strong><br>
+                                <strong>Web Development</strong><br>
                                 05.09.2023- 05.10.2023 <br>
                                 company : software company <br>
                                 Address: Dhaka, Bangladesh <br>
@@ -166,7 +170,7 @@
             </div>
         </div>
 
-        <div class="skills col-4">
+        <div class="skills col-4" id="skills-id">
             <div class="card">
                 <div class="card-icon">
                     <img class="rounded-image" src="./image/skill.png" alt="work icon">
@@ -196,8 +200,62 @@
 
 
     <!-- achievement contact starts here -->
+    <div class="achievement-contact">
+        <div class="achievement col-4">
+            <h2>ACHIEVEMENTS</h2>
+            <hr class="dotted-hr">
+            <P>1. Department-Head Scholarship : 5,000 TK for scoring 1st Class in M.Sc. </P>
+            <P>2. Purita cosa manifestamente nostra alla lodato informati che. Che di né il 'l di pietosa.  </P>
+            <P>3. Takimata kasd sed sadipscing amet et eos. Erat amet gubergren elitr takimata lorem diam amet,. </P>
+            <P>4. Lyres loathed venerable nor despair in he he deemed festal one. Steel he. </P>
+        </div>
 
-    <!-- achievement contact endss here -->
+        <div class="contact col-4" id="contact-id">
+            <h2>CONTACT ME</h2>
+            <hr class="dotted-hr">
+            <form action="mailto:muradhasan019922@gmail.com" method="post" enctype="text/plain">
+                <p><input type="text" placeholder="Your Name" name="Name:"></p>
+                <p><input type="email" placeholder="Your Email" name="Email:"></p>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Write your Message Here.."></textarea>
+                <button type="submit">SEND</button>
+                <button type="reset">RESET</button>
+            </form>
+        </div>
+
+        <div class="contact-links col-4" >
+            <h3>MORE WAY TO CONTACT</h3>
+            <hr class="dotted-hr">
+            <div class="media-buttons">
+                <button class="btn" onclick="window.open('https://www.facebook.com/murad.hasan.5454')"><i class="fa fa-facebook" style="color: #3b5998;"aria-hidden="true"></i></button>
+                <button class="btn" onclick="window.open('https://www.linkedin.com/in/murad-hasan-561a28203')"><i class="fa fa-linkedin" style="color: #0077B5;"aria-hidden="true"></i></button>
+                <button class="btn" onclick="window.open('https://github.com/muradhasan22')" class="btn-request-callback"><i class="fa fa-github" style="color: #2b3137;"aria-hidden="true"></i></button>
+                <button class="btn" onclick="window.open('https://www.youtube.com/c/anisulislamrubel')" class="request-callback"><i class="fa fa-youtube-play" style="color: #f50b0b;"aria-hidden="true"></i></button>
+                <button class="btn" onclick="window.open('https://www.instagram.com/murad.hasan.5454')" class="request-callback"><i class="fa fa-instagram" style="color: #e1306c;"aria-hidden="true"></i></button>
+
+
+            </div>
+
+        </div>
+    </div>
+    <!-- achievement contact ends here -->
+
+    <!-- footer starts here -->
+    <div class="footer">
+        <div class="footer-menu col-6">
+            <a href="#">Home</a>
+            <a href="#skills-id">Skills</a>
+            <a href="#contact-id">Contact</a>
+            <a href="#">Blog</a>
+            <a href="#about-me-id">About</a>
+        </div>
+        
+
+        <div class="footer-desc col-5">
+            &copy; Designed by Murad Hassan //2024
+        </div>
+    </div>
+
+    <!-- footer starts here -->
 
 
 </body>
