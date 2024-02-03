@@ -39,7 +39,7 @@ p{
 [class*="col-"]{
     float: left;
     padding: 10px;
-    width: 100%;
+    margin: 12px;
 }
 
 [class*="col-"]{
@@ -177,7 +177,7 @@ p{
 
  /* Professional experience design starts here  */
 .professional-experience{
-    padding: 1% 0%;
+    padding: 10px 20px 10px 0px;
 }
 
 .professional-experience .card{
@@ -252,7 +252,7 @@ p{
     animation-duration: 3s;
     animation-timing-function: linear;
     animation-delay: 2s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
      
     animation-fill-mode: forwards; 
 
@@ -361,12 +361,16 @@ p{
 
  /* achievement contact starts here */
 .achievement-contact{
-    padding: 1% 7%;
+    padding: 5px 25px 0 0;
     background-color: #39a4ac;
     color: white;
 
 }
-
+.achievement a:hover{
+    text-decoration: underline;
+    color: black;
+    text-shadow: 4px 3px 3px slateblue;
+}
 .contact{
     text-align: center;
 
